@@ -1,4 +1,4 @@
-# 📌 Tugas Akhir Visual Programming: Pomodoro Habit Tracker
+# 📌 Tugas Akhir Pemrograman Visual : Pomodoro Habit Tracker
 
 ---
 
