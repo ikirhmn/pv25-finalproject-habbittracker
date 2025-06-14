@@ -26,19 +26,20 @@ User dapat menambahkan task sesuai tanggal, melihat daftar reminder, serta mengg
 
 ## 🧩 Struktur Folder
 
+```markdown
 ├── db.py                     # Modul SQLite
 ├── export.py                 # Export ke CSV & PDF
 ├── add_task_dialog.py        # Form input task
 ├── Calendar.py               # File Utama
 ├── Calendar.ui               # File Qt Designer
 ├── sounds/
-│ └── ding.wav # Suara notifikasi timer
+│   └── ding.wav              # Timer notification
 ├── asset/
-│ └── minus.png
-│ └── plus (1).png
-│ └── plus (2).png
-└── habit_data.db # Auto-generated DB saat run
-
+│   ├── minus.png             # Minus icon
+│   ├── plus (1).png          # Plus icon variant 1
+│   └── plus (2).png          # Plus icon variant 2
+└── habit_data.db             # Auto-generated SQLite database
+```
 ---
 
 ## Data Mahasiswa
